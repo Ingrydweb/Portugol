@@ -1,0 +1,30 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro x1, x2, x3
+		
+		escreva("Digite o primeiro número ")
+		leia(x1)
+
+		escreva("Digite o primeiro número ")
+		leia(x2)
+
+		escreva("Digite o primeiro número ")
+		leia(x3)
+
+		se (x1> x2 e x1> x3) {
+			escreva ("x1 é o maior número")
+		} senao se (x2> x1 e x2> x3)
+			escreva ("x2 é o maior número")
+		se (x3> x1 e x3> x2) {
+			escreva ("x3 é o maior número")
+			escreva ("\n")
+
+
+		}
+
+			}
+
+		}
