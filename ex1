@@ -1,0 +1,30 @@
+  
+programa
+{
+	inteiro x
+	
+	funcao inicio()
+	{
+		escreva("Digite um valor numérico: ")
+		leia (x)
+
+		se (x<0) {
+			escreva("O número: ", x, " é negativo.")
+		}
+
+		senao{ 
+			se (x>0) {
+			escreva("O número: ", x, " é positivo.")
+		}
+
+			senao{ 
+				escreva("O número: ", x, " é igual a zero.")
+			}
+			
+			
+		}
+		
+			
+		
+	}
+}
