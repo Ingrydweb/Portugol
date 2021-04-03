@@ -1,0 +1,35 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro x1, x2, x3, soma
+		
+		escreva("Digite o primeiro número ")
+		leia(x1)
+
+		escreva("Digite o primeiro número ")
+		leia(x2)
+
+		escreva("Digite o primeiro número ")
+		leia(x3)
+
+		se ((x1 <x2 e x2 <x3) ou (x1 <x3 e x3 <x2)) {
+			soma = x2 + x3
+			escreva ("O resultado da soma entre os maiores números é: ", soma)
+		} senao se ((x2 <x1 e x1 <x3) ou (x2 <x3 e x3 <x1)) {
+			soma = x1 + x3
+			escreva ("O resultado da soma entre os maiores números é: ", soma) 
+		} senao se ((x3 <x1 e x1 <x2) ou (x3 <x2 e x2 <x1)) {
+			soma = x1 + x2
+			escreva ("O resultado da soma dos maiores números é: ", soma)
+		}
+
+	}
+                                                                                                                                                                                                   
+
+		
+
+			
+
+		}
