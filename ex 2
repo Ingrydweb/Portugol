@@ -1,0 +1,25 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro x, resultado, contador
+		
+		escreva("Digite um número de 1 a 10: ")
+		leia(x)
+
+		limpa()
+
+		para (contador = 5; contador <= 10; contador++)
+		{
+		
+
+			resultado = 5 * contador
+			escreva (5, " x ", contador, " = ", resultado, "\n")
+		}
+	
+	}
+
+
+		
+}
