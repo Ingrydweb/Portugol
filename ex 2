@@ -10,7 +10,7 @@ programa
 
 		limpa()
 
-		para (contador = 5; contador <= 10; contador++)
+		para (contador = x; contador <= 10; contador++)
 		{
 		
 
